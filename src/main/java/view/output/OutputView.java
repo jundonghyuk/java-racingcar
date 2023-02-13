@@ -16,6 +16,8 @@ public class OutputView {
     private static final String CAR_INFO_DELIMITER = " : ";
     private static final String RESULT_DELIMITER = ", ";
 
+    private OutputView() { };
+
     public static void printRacingStatus(final List<Car> cars) {
         for (Car car : cars) {
             StringJoiner stringJoiner = new StringJoiner(CAR_INFO_DELIMITER);

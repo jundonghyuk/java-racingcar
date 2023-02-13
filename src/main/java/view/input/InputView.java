@@ -9,6 +9,8 @@ public class InputView {
 
     private final static Scanner scanner = new Scanner(System.in);
 
+    private InputView() { };
+
     public static List<String> readCarName() {
         OutputView.printCarNamesInputMessage();
 
